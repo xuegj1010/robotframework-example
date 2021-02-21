@@ -13,3 +13,5 @@
         –  Mozilla Firefox driver:
             https://github.com/mozilla/geckodriver/releases
         -  Extract all drivers somewhere in HDD and add the location to PATH
+https://github.com/robotframework/WebDemo
+https://github.com/robotframework/RobotDemo
