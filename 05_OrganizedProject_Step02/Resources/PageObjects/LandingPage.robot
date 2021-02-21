@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Landing page of Amazon web site
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 

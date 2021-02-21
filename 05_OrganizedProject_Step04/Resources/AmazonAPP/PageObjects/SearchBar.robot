@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Search specific product on search bar
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 ${search_button}  xpath=//*[@id="nav-search"]/form/div[2]/div/input

@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Add the product to cart
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 

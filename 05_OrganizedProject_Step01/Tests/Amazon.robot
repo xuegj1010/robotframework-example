@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    Testing amazon.com web site
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 
 *** Variables ***

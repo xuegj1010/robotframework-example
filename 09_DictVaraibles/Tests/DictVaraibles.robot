@@ -8,8 +8,8 @@ Library  Collections
 
 *** Test Cases ***
 Test Case 1
-    log  &{GLOBAL_USER}[name]
-    log  &{GLOBAL_USER}[password]
+    log  ${GLOBAL_USER}[name]
+    log  ${GLOBAL_USER}[password]
 
 Test Case 2
     log  ${GLOBAL_USER.name}

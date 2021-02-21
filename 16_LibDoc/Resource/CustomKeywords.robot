@@ -5,7 +5,7 @@
 Documentation    This is my own custom keywords.
 ...              It has 2 key words.
 
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 ${BROWSER}  chrome

@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  How to use KW  example
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 Suite Setup  Log  Start to do something
 Suite Teardown  Log  Finished to do something
@@ -17,16 +17,16 @@ Check if Python web site is up and running
     [Tags]  python
     Test Python site
 
-Check if Robot web site is up and running
-    [Documentation]  This is Robot site test
-    [Tags]  robot
-    Test Robot site
+Check if GitHub web site is up and running
+    [Documentation]  This is GitHub site test
+    [Tags]  GitHub
+    Test GitHub site
 
 *** Keywords ***
 Test Python site
     go to  https://www.python.org
     wait until page contains  Python
 
-Test Robot site
-    go to  http://www.robotframework.org
-    wait until page contains  Robot Framework
+Test GitHub site
+    go to  https://github.com/xuegj1010
+    wait until page contains  xuegj1010

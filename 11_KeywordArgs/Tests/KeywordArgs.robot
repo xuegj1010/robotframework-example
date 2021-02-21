@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Passing Variables to user defined Keywords
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 
@@ -24,11 +24,11 @@ Begin Web Test With Scalar
 
 Begin Web Test With List
     [Arguments]  @{url_browser_list}
-    open browser  @{url_browser_list}[0]  @{url_browser_list}[1]
+    open browser  ${url_browser_list}[0]  ${url_browser_list}[1]
     close browser
 
 Begin Web Test With Dict
     [Arguments]  &{url_browser_dict}
 
-    open browser  &{url_browser_dict}[url]  &{url_browser_dict}[browser]
+    open browser  ${url_browser_dict}[url]  ${url_browser_dict}[browser]
     close browser

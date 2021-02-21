@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Search specific product on search bar
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 

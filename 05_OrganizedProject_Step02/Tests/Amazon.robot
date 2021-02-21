@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Testing Amazon.com web site
-Library  Selenium2Library
+Library  SeleniumLibrary
 Resource  ../Resources/Common.robot
 Resource  ../Resources/Amazon.robot
 

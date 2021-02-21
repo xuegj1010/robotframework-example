@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Verify Search Results & click the first product
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 

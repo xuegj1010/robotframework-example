@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Verify Search Results & click the first product
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 ${first_search_result}  css=#result_0 a.s-access-detail-page

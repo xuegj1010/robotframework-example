@@ -10,12 +10,14 @@ class CustomLib:
     ROBOT_LIBRARY_SCOPE = 'GLOBAL'
     ROBOT_LIBRARY_VERSION = '1.0.0'
 
+    @staticmethod
     def hello_world():
         """
         Print HELLO WORLD
         """
-        print "Hello World"
+        print("Hello World")
 
+    @staticmethod
     def print_my_name(name):
         """
         Give you name. This will print your name.
@@ -23,8 +25,9 @@ class CustomLib:
         Examples:
         | Print Name | myname |
         """
-        print "My name is %s" % (name)
+        print("My name is %s" % (name))
 
+    @staticmethod
     def account_info(username='admin', pwd='admin'):
         """
         Give username and password of account.
@@ -33,4 +36,4 @@ class CustomLib:
         Examples:
         | Account Info | username=admin | pwd=admin |
         """
-        print "this is account info username is %s and pwd is %s" % (username, pwd)
+        print("this is account info username is %s and pwd is %s" % (username, pwd))

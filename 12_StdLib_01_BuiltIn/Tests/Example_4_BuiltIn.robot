@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    example for builtln
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 ${GLOBAL_VARIABLE}  This is a global variable

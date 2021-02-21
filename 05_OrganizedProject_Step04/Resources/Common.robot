@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  All common functionality goes here
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 

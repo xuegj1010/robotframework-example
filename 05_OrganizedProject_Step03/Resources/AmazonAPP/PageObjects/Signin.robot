@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Verify Signin page load
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Keywords ***
 Verify Page

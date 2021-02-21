@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Dialogs standard library
-Library  Selenium2Library
+Library  SeleniumLibrary
 Library  Dialogs
 
 Test Setup  open browser  about:blank  ${BROWSER}

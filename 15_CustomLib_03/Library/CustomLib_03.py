@@ -7,7 +7,7 @@ class TestLib:
 
     def test_count(self):
         self._counter += 1
-        print self._counter
+        print(self._counter)
 
     def clear_test_counter(self):
         self._counter = 0
@@ -22,7 +22,7 @@ class SuitLib:
 
     def suit_count(self):
         self._counter += 1
-        print self._counter
+        print(self._counter)
 
     def clear_suit_counter(self):
         self._counter = 0
@@ -37,7 +37,8 @@ class GlobalLib:
 
     def global_count(self):
         self._counter += 1
-        print self._counter
+        print
+        self._counter
 
     def clear_global_counter(self):
         self._counter = 0

@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation  Proceed to Check out
-Library  Selenium2Library
+Library  SeleniumLibrary
 
 *** Variables ***
 ${procced_to_checkout_button}  css=#hlb-ptc-btn-native

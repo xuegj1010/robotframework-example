@@ -1,10 +1,9 @@
 *** Settings ***
-Documentation  This is some basic info about the whole suite
-
-Library  Selenium2Library
+Documentation     This is some basic info about the whole suite
+Library           SeleniumLibrary
 
 *** Variables ***
-${BROWSER}  chrome
+${BROWSER}        chrome
 
 *** Test Cases ***
 Test Case 1
@@ -18,23 +17,23 @@ Test Case 3
 
 *** Keyword ***
 Check if Python web site is up and running
-    [Documentation]  This is python site test
-    [Tags]  python
-    open browser  https://www.python.org/  ${BROWSER}
-    wait until page contains  Python
+    [Documentation]    This is python site test
+    [Tags]    python
+    open browser    https://www.python.org/    ${BROWSER}
+    wait until page contains    Python
     close browser
 
 Check if Robot web site is up and running
-    [Documentation]  This is robot site test
-    [Tags]  robot
-    open browser  http://robotframework.org/  ${BROWSER}
-    wait until page contains  Robot Framework
+    [Documentation]    This is robot site test
+    [Tags]    robot
+    open browser    http://robotframework.org/    ${BROWSER}
+    wait until page contains    Robot Framework
     close browser
 
 Check if GitHub Web Site is up and running
-    [Documentation]  This is robot site test
-    ...             if you  will be know this, maybe will happening something 
-    [Tags]  GitHub
-    open browser  https://github.com/OlgaKuklina  ${BROWSER}
-    wait until page contains  Olga Kuklina
+    [Documentation]    This is robot site test
+    ...    if you will be know this, maybe will happening something
+    [Tags]    GitHub
+    open browser    https://github.com/xuegj1010    ${BROWSER}
+    wait until page contains    xuegj1010
     close browser
